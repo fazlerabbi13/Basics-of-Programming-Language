@@ -5,8 +5,12 @@ int main(){
 
      int arr[]={1,2,3,4,5};
 
+     int* ptr2;
+     int* ptr1=ptr2+2;
 
-     cout<<(*arr+1)<<endl;
+     cout<<ptr1-ptr2;
+
+    //  cout<<(*arr+1)<<endl;
 
     // int a=10;
 
